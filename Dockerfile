@@ -1,5 +1,7 @@
 FROM python:latest
 
+EXPOSE 8080
+
 # set the working directory
 WORKDIR /app
 
